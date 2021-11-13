@@ -8,7 +8,7 @@ import NotFound from "./NotFound";
 import data from './data';
 import Cart from './Cart';
 import { useState, useEffect } from 'react';
-import Search from './Search';
+// import Search from './Search';
 
 const cartFromLS = JSON.parse(localStorage.getItem('cart') || "[]");
 
