@@ -89,7 +89,7 @@ function App() {
                     clearCart = {clearCart}
                     />
             </Route>
-            <Route path="/product/:id">
+            <Route path="/product:id">
               <ProductDetails></ProductDetails>
             </Route>
             <Route path="*">

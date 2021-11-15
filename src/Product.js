@@ -5,7 +5,7 @@ function Product(props){
     const{product, addProduct} = props;
     return(
         <div className="product" key={product.id}>
-            <Link to={`/product/${product.id}`}>
+            <Link to={`/product${product.id}`}>
             <div className="product-image">
                 <img src={product.image} alt="not found" />
             </div>
